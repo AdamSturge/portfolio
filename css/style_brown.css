@@ -1,0 +1,109 @@
+@media screen and (min-width: 500px) {
+  html {
+    font-size: calc(15px + 5 * ((100vw - 500px) / 900));
+  }
+}
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.flex-grid {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-column-count: auto;
+     -moz-column-count: auto;
+          column-count: auto;
+  -webkit-column-width: 420px;
+     -moz-column-width: 420px;
+          column-width: 420px;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+}
+.page-wrap {
+  padding: 0 1rem 2rem;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+
+.main-articles {
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+  clear: both;
+  margin: 0 0 0.66rem 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.main-articles .post-image {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0;
+  position: relative;
+  display: block;
+  max-width: 100%;
+  opacity: 0.95;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.main-articles .post-image:hover {
+  -webkit-transform: scale3d(0.95, 0.95, 1);
+          transform: scale3d(0.95, 0.95, 1);
+}
+
+.post-content {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.wrap-content {
+  padding: 10%;
+}
+.wrap-content p {
+  margin: 0 0 1rem 0;
+}
+
+.header-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.header-article h2 {
+  text-transform: uppercase;
+  margin: 0 0 0.25rem 0;
+  line-height: 1.2;
+}
+.header-article h2 a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+.header-article h2 a:hover {
+  color: #6D4C41;
+}
+
+.byline {
+  display: block;
+  text-transform: uppercase;
+  color: #9F9F9F;
+  font-size: 0.7rem;
+  padding: 0.5rem 4rem;
+  margin: 1rem -4rem;
+  background-color: rgba(0, 0, 0, 0.09);
+  letter-spacing: 1px;
+  width: calc(100% + 8rem);
+  text-shadow: 0 1px 1px #fff;
+}
+
