@@ -157,7 +157,7 @@ permalink: /
         {% for post in site.posts %}
         <article class="main-articles">
            {% if post.img %}
-             <a href="{{post.url}}"><img class="post-image" src={{ "img/" | append: post.img }} alt="{{post.title}}"></a>
+             <a href="{{post.github}}"><img class="post-image" src={{ "img/" | append: post.img }} alt="{{post.title}}"></a>
            {% endif %}
             <div class="post-content">
               <div class="wrap-content">
