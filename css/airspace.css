@@ -286,6 +286,11 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 50px;
   color: #7B7B7B;
 }
+
+#work-experience .block img
+{
+width: 100%;
+}
 #work-experience .counter-box li {
   width: 50%;
   float: left;
