@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: Adam Sturge
+title: "{ Adam Sturge }"
 subtitle: ""
 url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
@@ -35,3 +35,10 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+
+pages_list:
+  About: 'intro'
+  Education: 'education'
+  Work_Experience: 'work-experience'
+  Projects: 'projects'
