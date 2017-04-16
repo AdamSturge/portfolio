@@ -48,21 +48,6 @@ permalink: /
     </div>
   </div>
 </section>
-<!--
-<section id="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2>WE BELIEVE IN GREAT IDEAS</h2>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <a href="#" class="btn btn-view-works">View Works</a>
-    </div>
-  </div>
-</div>
-</section>
--->
 <!-- Education Start -->
 <section id="education">
   <div class="container">
@@ -82,22 +67,6 @@ permalink: /
     </div>
   </div>
 </section>
-<!-- Call to action Start -->
-<!--
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
 <!-- Content Start -->
 <section id="work-experience">
   <div class="container">
@@ -157,8 +126,11 @@ permalink: /
     <div class="flex-grid">
         {% for post in site.posts %}
         <article class="main-articles">
-           {% if post.img %}
-             <a href="{{post.github}}"><img class="post-image" src={{ "img/" | append: post.img }} alt="{{post.title}}"></a>
+           {% if post.static_img %}
+             <a href="{{post.github}}">
+                <img class="post-image" src={{ "img/" | append: post.static_img }} animated-src={{ "img/" | append: post.animated_img }} 
+                     static-src={{ "img/" | append: post.static_img }}  alt="{{post.title}}">
+            </a>
            {% endif %}
             <div class="post-content">
               <div class="wrap-content">
