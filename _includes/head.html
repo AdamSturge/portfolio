@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style_airspace.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
@@ -29,6 +29,7 @@
 <script src="{{ site.baseurl }}/js/min/waypoints.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.counterup.js"></script>
 <script src="{{ site.baseurl }}/js/wow.min.js"></script>
+<script src="{{ site.baseurl }}/js/typed.min.js"></script>
 <script src="{{ site.baseurl }}/js/main.js"></script>
 <script>
 function toggleNavCollapse()
@@ -56,6 +57,15 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
                 $(this).attr("src", $(this).attr("static-src"));
             }                         
         );                  
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#slider-txt").typed({
+            strings: ["Hello World"],
+            typeSpeed: 10,
+            loop : false
+        });
     });
 </script>
 <!--

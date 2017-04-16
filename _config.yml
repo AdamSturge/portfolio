@@ -18,9 +18,10 @@ title: "{ Adam Sturge }"
 subtitle: ""
 url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
+baseurl: ""
 cover: ""
 logo: ""
+
 
 # Build settings
 markdown: kramdown
