@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: c++ libigl
 animated_img: geometry-smoothing.gif
 static_img: geometry-smoothing.png
+public : false
 author: Adam Sturge
 ---
 

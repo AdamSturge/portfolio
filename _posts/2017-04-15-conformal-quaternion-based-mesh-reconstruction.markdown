@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: c++ libigl
 animated_img: conformal-quaternion-deformation.gif
 static_img : conformal-quaternion-deformation.PNG
+public : true
 author: Adam Sturge
 ---
 

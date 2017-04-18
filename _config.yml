@@ -42,4 +42,4 @@ pages_list:
   About: 'intro'
   Education: 'education'
   Work_Experience: 'work-experience'
-  Projects: 'projects'
+  Code: 'code'

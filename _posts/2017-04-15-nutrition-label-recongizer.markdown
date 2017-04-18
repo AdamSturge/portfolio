@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: java android
 animated_img: nutrition-label-recongnizer.png
 static_img : nutrition-label-recongnizer.png
+public : true
 author: Adam Sturge
 ---
 

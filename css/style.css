@@ -36,6 +36,23 @@ img {
   color: #0D0017;
 }
 
+.label-private{
+    font-weight: normal;
+    color: red;
+    background-color: transparent;
+    border : 1px solid red;
+    box-shadow: none;
+}
+
+.label-public{
+    font-weight: normal;
+    color: green;
+    background-color: transparent;
+    border: 1px solid green;
+    box-shadow: none;
+}
+
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

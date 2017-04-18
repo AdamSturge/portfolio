@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: c++ libigl
 animated_img: poisson-reconstruction.gif
 static_img : poisson-reconstruction.png
+public : false
 author: Adam Sturge
 ---
 

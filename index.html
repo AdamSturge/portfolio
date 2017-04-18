@@ -117,12 +117,17 @@ permalink: /
     </div>
   </div>
 </section>
-<section id="projects">
+<section id="code">
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>Projects</h2>
-      </div>
+        <h2>Code</h2> 
+        <span>
+            Some of the below code comes from assignments I have done either at university or through an online course. 
+            As such it is kept in a private repository in accordance with academic honesty. 
+            If you wish to view the source code send me an email and I will grant you access if I deam there to be no chance of loss of integrity.
+        </span>
+      </div> 
     </div>
   </div>
   <div class="page-wrap">
@@ -139,7 +144,16 @@ permalink: /
               <div class="wrap-content">
                 <header class="header-article">
                   <h2><a href="{{post.github}}">{{post.title}}</a></h2>
-		<div class="byline">
+	    	<div class="row">
+                    <div class="col-md-1 col-md-offset-5">
+                        {% if post.public %}
+                            <span class="label label-public">public</span>
+                        {% else %}
+                            <span class="label label-private">private</span>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="byline">
 			<span>{{post.categories | join: ', '}}</span>
 		</div>
                 </header>

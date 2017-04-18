@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: c++ libigl
 animated_img: mega-man.jpg
 static_img : mega-man.jpg
+public : false
 author: Adam Sturge
 ---
 

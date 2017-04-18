@@ -7,6 +7,7 @@ date:   2017-04-15
 categories: python caffe
 animated_img: image-classifier.png
 static_img : image-classifier.png
+public : public
 author: Adam Sturge
 ---
 
