@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Engine
+github : https://github.com/AdamSturge/Engine
+description: A physics and rendering engine
+date:   2017-04-15
+categories: C++ OpenGL Eigen
+animated_img: engine.gif
+static_img : engine.png
+public : true
+author: Adam Sturge
+---
+
